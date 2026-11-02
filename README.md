@@ -15,14 +15,15 @@ Let the cashier enter the customer's tax-exempt ID at checkout. If the ID is val
 **Business rule:** Manager approval is required only when the tax-exempt amount is greater than $50.
 
 ## What's Included
-- **BRD:** business objectives, scope, and requirements
+- **BRD:** business problem, proposed solution, requirements, and business rules
 - **Use Case Document:** actors, main flow, alternate flows, and exceptions
 - **Wireframes:** 7 screens covering the success and error scenarios
 
-| Folder | Contents |
+| File | Contents |
 |---|---|
-| `Documents/` | BRD and Use Case document |
-| `Wireframes/` | 7 wireframes covering the main flow and error scenarios |
+| `BRD.docx` | Business Requirements Document |
+| `Use_Case_Tax_Exempt.docx` | Use case with flows and field specifications |
+| `Wireframe_1` to `Wireframe_7` | Screens for the main flow and error scenarios |
 
 ## Use Case Summary
 **Use Case:** Enter Tax-Exempt ID
