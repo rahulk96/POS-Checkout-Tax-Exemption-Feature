@@ -1,6 +1,6 @@
-# POS Tax Exemption: BA Documentation
+# POS Checkout Tax Exemption Feature
 
-A practice Business Analysis project for a POS checkout feature that lets cashiers apply non-profit tax-exempt IDs, with manager approval for larger exemptions.
+BRD, use case, and wireframes for a POS checkout feature that removes tax for non-profit customers.
 
 ## Business Problem
 At checkout, cashiers cannot remove tax for customers with a non-profit business account. The business is losing sales from these customers.
@@ -15,6 +15,10 @@ Let the cashier enter the customer's tax-exempt ID at checkout. If the ID is val
 **Business rule:** Manager approval is required only when the tax-exempt amount is greater than $50.
 
 ## What's Included
+- **BRD:** business objectives, scope, and requirements
+- **Use Case Document:** actors, main flow, alternate flows, and exceptions
+- **Wireframes:** 7 screens covering the success and error scenarios
+
 | Folder | Contents |
 |---|---|
 | `Documents/` | BRD and Use Case document |
@@ -39,35 +43,7 @@ Let the cashier enter the customer's tax-exempt ID at checkout. If the ID is val
 - **Manager PIN:** numeric, 4 digits, required, encrypted
 
 ## Tools Used
-[Name your wireframing tool], Microsoft Word
-
-## Note
-This is a practice project built on a sample Vend POS screen. It is not client work
-
-
-# POS-Checkout-Tax-Exemption-Feature
-BRD, use case, and wireframes for a POS checkout feature that removes tax for non-profit customers
-
-# Tax-Exempt ID Feature: POS Checkout (BA Project)
-
-A practice Business Analysis project that adds a tax-exempt ID option to a POS checkout screen.
-
-## Problem
-Cashiers cannot apply tax exemptions for eligible customers at checkout.
-
-## What's included
-- **BRD:** business objectives, scope, and requirements
-- **Use Case Document:** actors, main flow, alternate flows, and exceptions
-- **Wireframes:** 7 screens covering the success and error scenarios
-
-## Key scenarios covered
-- Entering a valid tax-exempt ID and removing tax from the total
-- Invalid tax ID format
-- ID that is not tax-exempt
-- Manager approval with an invalid user ID or PIN
-
-## Tools used
-Wireframing tool: [name it]; Microsoft Word
+[Your wireframing tool], Microsoft Word
 
 ## Note
 This is a practice project built on a sample Vend POS screen. It is not client work.
